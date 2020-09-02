@@ -13,7 +13,7 @@ now = dt.datetime.now()
 
 root = Tk()
 ftypes = [(".xlsm","*.xlsx",".xls")]
-ttl  = "Title"
+ttl  = "Title2"
 dir1 = 'C:\\'
 filePath = askopenfilename(filetypes = ftypes, initialdir = dir1, title = ttl)
 
